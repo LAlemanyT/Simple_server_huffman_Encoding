@@ -217,7 +217,7 @@ struct compressed_bit** build_dict(char* dict){
 
     /*
      * USYD CODE CITATION ACKNOWLEDGEMENT
-     * Code for socket setup based on Seminar 11 demonstration
+     * Code for socket setup based on COMP2017 (Semester 1, 2020) Seminar 11 demonstration
      */
 
 int main(int argc, char** argv){
@@ -229,7 +229,7 @@ int main(int argc, char** argv){
       fread(&ip, 4, 1, f);
       fread(&port, 2, 1, f);
 
-      //TARGET DIRECTORY (COMMENTED OUT BECAUSE "UNUSED VALUE")
+      //TARGET DIRECTORY
       char target[50];
       int i = 0;
       while(i<50){
